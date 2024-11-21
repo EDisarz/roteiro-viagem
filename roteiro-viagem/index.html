@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MVP - Roteiros de Viagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Roteiros de Viagem</h1>
+    <p>Informe a cidade e selecione suas preferências para receber recomendações:</p>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" placeholder="Digite a cidade" />
+
+    <label for="preferencias">Preferências Culturais:</label>
+    <select id="preferencias">
+      <option value="">Escolha uma preferência</option>
+      <option value="Museus">Museus</option>
+      <option value="Galerias de Arte">Galerias de Arte</option>
+      <option value="Eventos Locais">Eventos Locais</option>
+      <option value="Parques">Parques</option>
+    </select>
+
+    <button id="buscar">Buscar Recomendações</button>
+
+    <h2>Recomendações:</h2>
+    <ul id="resultados"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
